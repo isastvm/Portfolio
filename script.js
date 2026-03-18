@@ -60,13 +60,12 @@ navItems.forEach(item => {
 const reveals = document.querySelectorAll('.reveal');
 
 function revealOnScroll() {
-    const windowHeight  = window.innerHeight;
+    const windowHeight   = window.innerHeight;
     const elementVisible = 90;
 
     reveals.forEach((el, i) => {
         const top = el.getBoundingClientRect().top;
         if (top < windowHeight - elementVisible) {
-            // Delay escalonado por grupo
             const delay = (i % 4) * 80;
             setTimeout(() => el.classList.add('active'), delay);
         }
