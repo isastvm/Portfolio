@@ -1017,3 +1017,61 @@ footer {
     body { cursor: auto; }
     .cursor, .cursor-follower { display: none; }
 }
+/* ===========================
+   AJUSTES VISUAIS FINAIS
+=========================== */
+
+/* TAG NA FOTO */
+.about-img-wrapper {
+    position: relative;
+}
+
+.about-tag {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background: var(--rose);
+    color: var(--white);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    padding: 6px 10px;
+}
+
+/* SKILL CARD MAIS IGUAL AO PRINT */
+.skill-card {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.skill-card.destaque {
+    border: 1.5px solid var(--rose);
+}
+
+/* TAGS (ferramentas) */
+.tool-list li {
+    background: transparent;
+    border: 1px solid var(--rose-light);
+    color: var(--rose);
+}
+
+/* CONTATO MAIS LIMPO (IGUAL PRINT) */
+.contact-link {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.contact-link:hover {
+    background: rgba(255,255,255,0.03);
+}
+
+/* BOTÃO MAIS IGUAL */
+.contact .btn-primary {
+    margin-top: 10px;
+    padding: 14px 28px;
+    letter-spacing: 0.1em;
+}
+
+/* TÍTULO MAIS DESTACADO */
+.contact .section-title em {
+    color: var(--rose-light);
+}
