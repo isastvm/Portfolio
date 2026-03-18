@@ -1,110 +1,223 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Isadora | Portfólio</title>
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isadora Estevam — Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<section class="about">
-    <div class="container about-grid">
-        <div class="about-img">
-            <div class="tag">3° ano informática</div>
-        </div>
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
 
-        <div>
-            <span class="label">Sobre mim</span>
-            <h2>Tecnologia com <em>propósito</em></h2>
-            <p>Sou estudante do 3º ano do curso técnico em Informática e busco uma oportunidade de estágio na área de tecnologia.</p>
+<header>
+    <div class="container">
+        <nav>
+            <a href="#inicio" class="logo">IE<span>.</span></a>
+            <button class="menu-btn">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="container hero-content">
+        <div class="hero-tag reveal">Técnica em Informática</div>
+        <h1 class="hero-title reveal">
+            Isadora<br><em>Estevam</em>
+        </h1>
+        <p class="hero-desc reveal">
+            Busco desenvolver soluções digitais funcionais, organizadas e eficientes, sempre focando em aprendizado e evolução constante.
+        </p>
+        <div class="hero-actions reveal">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-outline">Entrar em contato</a>
         </div>
     </div>
 </section>
 
-<section class="skills">
+<section id="sobre" class="about">
     <div class="container">
-        <span class="label">O QUE EU FAÇO</span>
-        <h2>Habilidades & <em>Ferramentas</em></h2>
+        <div class="about-grid">
+            <div class="about-visual reveal">
+                <div class="about-img-placeholder">Foto aqui</div>
+            </div>
+            <div class="about-text reveal">
+                <div class="section-label">Sobre mim</div>
+                <h2 class="section-title">Tecnologia com <em>propósito</em></h2>
+                <p>Sou estudante do 3º ano do curso técnico em Informática na EEEP Professora Luiza de Teodoro Vieira. Tenho interesse na área de tecnologia e gosto de aprender na prática.</p>
+                <p>Busco uma oportunidade de estágio para desenvolver minhas habilidades, adquirir experiência e crescer profissionalmente.</p>
+                <p>Sou dedicada, organizada e gosto de trabalhar em equipe.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <div class="grid">
+<section id="habilidades" class="skills">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="section-label">O que eu faço</div>
+            <h2 class="section-title">Habilidades & <em>Ferramentas</em></h2>
+        </div>
 
-            <div class="card">
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-icon">💻</div>
                 <h3>Desenvolvimento Web</h3>
-                <p>Criação de sites utilizando HTML, CSS e JavaScript.</p>
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
+                <p>Criação de páginas utilizando HTML, CSS e JavaScript.</p>
             </div>
 
-            <div class="card">
+            <div class="skill-card reveal">
+                <div class="skill-icon">🧠</div>
                 <h3>Lógica de Programação</h3>
                 <p>Resolução de problemas e construção de algoritmos.</p>
-                <div class="tags">
-                    <span>Algoritmos</span>
-                    <span>Raciocínio</span>
-                </div>
             </div>
 
-            <div class="card destaque">
-                <h3>Ferramentas</h3>
-                <p>Uso de ferramentas digitais para desenvolvimento.</p>
-                <div class="tags">
-                    <span>VS Code</span>
-                    <span>Git</span>
-                </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">🛠️</div>
+                <h3>Ferramentas Digitais</h3>
+                <p>Uso de ferramentas para organização e desenvolvimento de projetos.</p>
             </div>
 
-            <div class="card">
-                <h3>Soft Skills</h3>
-                <p>Organização, comunicação e trabalho em equipe.</p>
-                <div class="tags">
-                    <span>Equipe</span>
-                    <span>Proatividade</span>
-                </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">⭐</div>
+                <h3>Habilidades Pessoais</h3>
+                <p>Proatividade, organização e trabalho em equipe.</p>
             </div>
 
         </div>
     </div>
 </section>
 
-<section class="contact">
+<section id="projetos" class="projects">
     <div class="container">
-        <span class="label">VAMOS CONVERSAR?</span>
-        <h2>Pronta para o próximo <em>desafio</em></h2>
-        <p>Estou em busca de estágio em tecnologia.</p>
+        <div class="section-header reveal">
+            <div class="section-label">Portfólio</div>
+            <h2 class="section-title">Projetos <em>Selecionados</em></h2>
+        </div>
 
-        <div class="contact-grid">
+        <div class="projects-grid">
 
-            <div class="contact-box">
-                <span>E-mail</span>
-                <strong>isadora@email.com</strong>
+            <div class="project-card reveal">
+                <h3>Projeto Escolar</h3>
+                <p>Projeto prático envolvendo lógica e organização de dados.</p>
+                <a href="#" class="btn btn-outline">Ver projeto</a>
             </div>
 
-            <div class="contact-box">
-                <span>LinkedIn</span>
-                <strong>Isadora Estevam</strong>
+            <div class="project-card reveal">
+                <h3>Página Web</h3>
+                <p>Desenvolvimento de site simples utilizando HTML e CSS.</p>
+                <a href="#" class="btn btn-outline">Ver projeto</a>
             </div>
 
-            <div class="contact-box">
-                <span>Instagram</span>
-                <strong>@isadora.dev</strong>
-            </div>
-
-            <div class="contact-box">
-                <span>GitHub</span>
-                <strong>github.com/isadora</strong>
+            <div class="project-card reveal">
+                <h3>Estudos Práticos</h3>
+                <p>Projetos desenvolvidos para reforçar conhecimentos.</p>
+                <a href="#" class="btn btn-outline">Ver projeto</a>
             </div>
 
         </div>
-
-        <button class="btn">ME ENVIE UM E-MAIL</button>
     </div>
 </section>
 
+<section id="formacao" class="education">
+    <div class="container">
+        <div class="section-header reveal">
+            <div class="section-label">Trajetória</div>
+            <h2 class="section-title">Formação <em>Acadêmica</em></h2>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-line"></div>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2024 — 2026</span>
+                    <h3>Ensino Médio e Técnico em Informática</h3>
+                    <p class="timeline-school">EEEP Professora Luiza de Teodoro Vieira</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker">
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2023 — 2024</span>
+                    <h3>Estudos Complementares</h3>
+                    <p class="timeline-school">Aprendizado online</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="contact">
+    <div class="container">
+        <div class="contact-inner reveal">
+            <div class="section-label">Vamos conversar?</div>
+            <h2 class="section-title">Pronta para aprender e <em>crescer</em></h2>
+
+            <p class="contact-desc">
+                Estou em busca de uma oportunidade de estágio na área de tecnologia.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:isadoraestevam09@example.com" class="contact-link">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <span class="contact-label">E-mail</span>
+                        <span class="contact-value">isadoraestevam09@example.com</span>
+                    </div>
+                </a>
+
+                <a href="#" class="contact-link">
+                    <div class="contact-icon">💼</div>
+                    <div>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Isadora Estevam</span>
+                    </div>
+                </a>
+
+                <a href="#" class="contact-link">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <span class="contact-label">Instagram</span>
+                        <span class="contact-value">@isastvm</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <a href="mailto:isadoraestevam09@example.com" class="btn btn-primary">
+                Me envie um e-mail
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Isadora Estevam</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
