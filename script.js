@@ -11,14 +11,14 @@ document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;
     mouseY = e.clientY;
     cursor.style.left = mouseX + 'px';
-    cursor.style.top  = mouseY + 'px';
+    cursor.style.top = mouseY + 'px';
 });
 
 function animateFollower() {
     followerX += (mouseX - followerX) * 0.12;
     followerY += (mouseY - followerY) * 0.12;
     follower.style.left = followerX + 'px';
-    follower.style.top  = followerY + 'px';
+    follower.style.top = followerY + 'px';
     requestAnimationFrame(animateFollower);
 }
 animateFollower();
@@ -38,7 +38,7 @@ document.querySelectorAll('a, button').forEach(el => {
 // ==============================
 //  MENU RESPONSIVO
 // ==============================
-const menuBtn  = document.querySelector('.menu-btn');
+const menuBtn = document.querySelector('.menu-btn');
 const navLinks = document.querySelector('.nav-links');
 const navItems = document.querySelectorAll('.nav-links a');
 
@@ -60,7 +60,7 @@ navItems.forEach(item => {
 const reveals = document.querySelectorAll('.reveal');
 
 function revealOnScroll() {
-    const windowHeight   = window.innerHeight;
+    const windowHeight = window.innerHeight;
     const elementVisible = 90;
 
     reveals.forEach((el, i) => {
@@ -87,3 +87,20 @@ window.addEventListener('scroll', () => {
         header.style.boxShadow = 'none';
     }
 }, { passive: true });
+
+// ==============================
+//  BOTÃO VOLTAR AO TOPO
+// ==============================
+const backToTop = document.getElementById('backToTop');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+        backToTop.classList.add('visible');
+    } else {
+        backToTop.classList.remove('visible');
+    }
+}, { passive: true });
+
+backToTop.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
