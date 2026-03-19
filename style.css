@@ -398,3 +398,24 @@ footer { background: #1e1418; text-align: center; padding: 2rem 0; font-size: 0.
     .project-actions { flex-direction: column; }
     .cert-card { flex-wrap: wrap; }
 }
+.cert-badge-wip {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--rose);
+    background: var(--rose-pale);
+    border: 1px solid var(--rose-light);
+    padding: 0.3rem 0.75rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.cert-badge-wip {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--rose);
+    background: var(--rose-pale);
+    border: 1px solid var(--rose-light);
+    padding: 0.3rem 0.75rem;
+    flex-shrink: 0;
+    white-space: nowrap;
