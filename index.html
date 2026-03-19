@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,6 +28,7 @@
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
                     <li><a href="#formacao">Formação</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
@@ -53,7 +52,14 @@
             </p>
             <div class="hero-actions reveal">
                 <a href="#projetos" class="btn btn-primary">Ver projetos</a>
-                <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+                <a href="curriculo.pdf" download class="btn btn-outline">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Baixar Currículo
+                </a>
             </div>
         </div>
     </section>
@@ -65,7 +71,7 @@
 
                 <div class="about-visual reveal">
                     <div class="about-img-wrapper">
-                        <img src="isa.png" alt="Isadora Estevam" class="about-photo">
+                        <img src="img/isadora.png" alt="Isadora Estevam" class="about-photo">
                         <div class="about-badge">
                             <span class="badge-num">3<span class="badge-sup">°</span></span>
                             <span class="badge-text">ano em<br>Informática</span>
@@ -81,6 +87,14 @@
                     <p>Busco uma oportunidade de estágio para desenvolver minhas habilidades, adquirir experiência e
                         crescer profissionalmente.</p>
                     <p>Sou dedicada, organizada e gosto de trabalhar em equipe.</p>
+                    <a href="curriculo.pdf" download class="btn btn-outline" style="margin-top:1.5rem;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Baixar Currículo
+                    </a>
                 </div>
 
             </div>
@@ -105,28 +119,11 @@
                         </svg>
                     </div>
                     <h3>Desenvolvimento Web</h3>
-                    <p>Criação de páginas utilizando HTML, CSS e JavaScript com foco em layouts limpos e funcionais.</p>
+                    <p>Criação de páginas com HTML e CSS, incluindo design digital e criação de layouts.</p>
                     <ul class="tool-list">
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card reveal">
-                    <div class="skill-icon">
-                        <svg viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="3" />
-                            <path
-                                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
-                        </svg>
-                    </div>
-                    <h3>Lógica de Programação</h3>
-                    <p>Resolução de problemas e construção de algoritmos com raciocínio estruturado.</p>
-                    <ul class="tool-list">
-                        <li>Algoritmos</li>
-                        <li>Python</li>
-                        <li>Pseudocódigo</li>
+                        <li>Design de Layouts</li>
                     </ul>
                 </div>
 
@@ -137,13 +134,13 @@
                             <path d="M8 21h8M12 17v4" />
                         </svg>
                     </div>
-                    <h3>Ferramentas Digitais</h3>
-                    <p>Uso de ferramentas para organização, produtividade e desenvolvimento de projetos escolares e
-                        pessoais.</p>
+                    <h3>Ferramentas & Produtividade</h3>
+                    <p>Domínio de ferramentas do dia a dia para organização, criação e edição de conteúdo.</p>
                     <ul class="tool-list">
-                        <li>VS Code</li>
-                        <li>Git</li>
-                        <li>Figma</li>
+                        <li>Word</li>
+                        <li>PowerPoint</li>
+                        <li>Excel</li>
+                        <li>Edição de Imagens</li>
                     </ul>
                 </div>
 
@@ -156,11 +153,27 @@
                         </svg>
                     </div>
                     <h3>Habilidades Pessoais</h3>
-                    <p>Proatividade, organização e facilidade de comunicação para trabalhar bem em equipe.</p>
+                    <p>Comprometimento com prazos, boa comunicação e atenção aos detalhes em cada entrega.</p>
                     <ul class="tool-list">
                         <li>Trabalho em equipe</li>
-                        <li>Proatividade</li>
-                        <li>Adaptabilidade</li>
+                        <li>Organização</li>
+                        <li>Responsabilidade</li>
+                        <li>Atenção aos detalhes</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                        </svg>
+                    </div>
+                    <h3>Organização Digital</h3>
+                    <p>Gestão eficiente de arquivos, pastas e ambientes digitais com foco em praticidade.</p>
+                    <ul class="tool-list">
+                        <li>Organização de Arquivos</li>
+                        <li>Computação Básica</li>
+                        <li>Boas Práticas</li>
                     </ul>
                 </div>
 
@@ -208,6 +221,89 @@
         </div>
     </section>
 
+    <!-- ======= CERTIFICADOS ======= -->
+    <section id="certificados" class="certificates">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-label">Conquistas</div>
+                <h2 class="section-title">Certificados & <em>Cursos</em></h2>
+            </div>
+
+            <div class="cert-grid">
+
+                <!--
+                    COMO ADICIONAR UM CERTIFICADO:
+                    1. Duplique um bloco .cert-card abaixo
+                    2. Preencha: título, instituição, ano e link (href)
+                    3. Se tiver o arquivo local, coloque em: certificados/nome.pdf
+                       e use href="certificados/nome.pdf"
+                    4. Se for um link online (ex: Coursera, Alura), cole o link direto no href
+                -->
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Nome do Certificado</h3>
+                        <span class="cert-issuer">Instituição — Ano</span>
+                    </div>
+                    <a href="certificados/certificado1.pdf" target="_blank" class="cert-btn" title="Ver certificado">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Nome do Certificado</h3>
+                        <span class="cert-issuer">Instituição — Ano</span>
+                    </div>
+                    <a href="certificados/certificado2.pdf" target="_blank" class="cert-btn" title="Ver certificado">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="8" r="6"/>
+                            <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3 class="cert-title">Nome do Certificado</h3>
+                        <span class="cert-issuer">Instituição — Ano</span>
+                    </div>
+                    <a href="certificados/certificado3.pdf" target="_blank" class="cert-btn" title="Ver certificado">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- ======= FORMAÇÃO ======= -->
     <section id="formacao" class="education">
         <div class="container">
@@ -245,7 +341,6 @@
 
                 <div class="contact-links">
 
-                    <!-- E-mail -->
                     <a href="mailto:isadoraestevam09@gmail.com" class="contact-link">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24">
@@ -259,12 +354,10 @@
                         </div>
                     </a>
 
-                    <!-- GitHub -->
                     <a href="https://github.com/isastvm" target="_blank" class="contact-link">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24" fill="none">
-                                <path fill="var(--rose-light)" stroke="none"
-                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                                <path fill="var(--rose-light)" stroke="none" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
                             </svg>
                         </div>
                         <div>
@@ -273,7 +366,6 @@
                         </div>
                     </a>
 
-                    <!-- Instagram -->
                     <a href="https://www.instagram.com/isastvm_/" target="_blank" class="contact-link">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24">
@@ -288,7 +380,6 @@
                         </div>
                     </a>
 
-                    <!-- LinkedIn -->
                     <a href="https://www.linkedin.com/in/isadora-e-a499253a5/" target="_blank" class="contact-link">
                         <div class="contact-icon">
                             <svg viewBox="0 0 24 24">
@@ -304,9 +395,9 @@
 
                 </div>
 
-                <a href="https://mail.google.com/mail/?view=cm&to=isadoraestevam09@gmail.com" target="_blank" class="btn btn-primary">
-    Me envie um e-mail
-</a>
+                <a href="mailto:isadoraestevam09@gmail.com" class="btn btn-primary">
+                    Me envie um e-mail
+                </a>
             </div>
         </div>
     </section>
@@ -321,8 +412,7 @@
     <!-- ======= BOTÃO VOLTAR AO TOPO ======= -->
     <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
+            <path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
     </button>
 
